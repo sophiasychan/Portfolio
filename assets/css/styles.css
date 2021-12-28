@@ -429,12 +429,12 @@ footer {
 .scroll-up {
     position: fixed;
     right: 0.5%;
-    bottom: 3%;
+    bottom: 1%;
     cursor: pointer;
 }
 .up-arrow {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* Mobile compatible */
