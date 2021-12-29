@@ -172,7 +172,7 @@ nav ul li {
 
 .publication-title {
     margin-bottom: var(--bottom-margin);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: var(--bold-font);
     text-align: center;
 }
@@ -184,7 +184,7 @@ nav ul li {
 }
 
 .publication-container p {
-    padding: 0.4rem;
+    padding: 0.3rem;
     margin-bottom: 0;
 }
 
