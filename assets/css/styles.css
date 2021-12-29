@@ -14,7 +14,7 @@
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
-  --transition: 0.3s;
+  --transition: 0.5s;
 }
 
 html {
@@ -135,7 +135,7 @@ nav ul li {
 
 .more-about p {
     line-height: var(--line-height);
-    padding: 0.3rem;
+    padding: 0.3rem 0;
     text-align: justify;
 }
 
@@ -320,6 +320,7 @@ nav ul li {
     padding: 12px 16px;
     z-index: 1;
     text-align: left;
+    max-height: 0;
 }
 
 .info-content li {
@@ -328,6 +329,12 @@ nav ul li {
 
 .info-dropdown:hover .info-content {
     display: block;
+    /* -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+    max-height: 500px; */
 }
 
 /* Contact me */
