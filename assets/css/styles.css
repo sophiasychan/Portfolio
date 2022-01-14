@@ -9,7 +9,7 @@
   --bg-color: #fcfcfc;
   --primary-color: #477fdf;
   --secondary-color: #f4af5c;
-  --primary-shadow: #9d8baf;
+  --primary-shadow: rgb(197, 197, 198);
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -23,6 +23,7 @@ html {
 
 /* CSS Resets */
 * {
+  background-color: var(--bg-color);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,6 +47,16 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+}
+
+hr {
+    background-color: var(--bg-color);
+    border-color: var(--primary-shadow);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 0 47.5%;
 }
 
 /* Navigation bar */
@@ -103,12 +114,13 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 3rem;
     max-width: 68.75rem;
     margin: auto;
 }
 
 .hero img{
+    padding-top: 1rem;
     height: 27rem;
 }
 
@@ -144,7 +156,7 @@ nav ul li {
 .publications {
     background-color: var(--bg-color);
     padding: 32px 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .publication-pic {
@@ -195,7 +207,7 @@ nav ul li {
 .publication-card {
     background-color: #fff;
     border-radius: 11px; /* how rounded the boxes edges are */
-    box-shadow: 0 3px 10px rgb(197, 197, 198);
+    box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 15px;
     margin: 10px;
 }
@@ -209,7 +221,7 @@ nav ul li {
 .conferences {
     background-color: var(--bg-color);
     padding: 32px 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .conferences-title {
@@ -265,7 +277,7 @@ nav ul li {
 .add-info {
     background-color: var(--bg-color);
     padding: 32px 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .add-info-title {
